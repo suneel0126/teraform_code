@@ -10,6 +10,6 @@ resource "aws_subnet" "public" {
 }
 resource "aws_subnet" "pravete" {
     cidr_block = aws_vpc.QC.id
-    
+    aws_region = us-east-1a
   
 }
